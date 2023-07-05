@@ -88,14 +88,14 @@ Note: When SD card not connected, then above related pins can be used for normal
 ### Example Codes
    Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/ArdiPi_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-ardipi), also add related lib files with default name.
    In [example](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ArdiPi like 
-   - [Buzzer](https://github.com/sbcshop/ArdiFi_Software/blob/main/examples/BuzzerDemo.py), 
-   - [SD card](https://github.com/sbcshop/ArdiFi_Software/blob/main/examples/sdcardDemo.py),
+   - [Buzzer](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/buzzerDemo) : code to test onboard Buzze
+   - [SD card](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/sdcard_Demo) : code to test onboard micro SD card interfacing
    
-   Also, sample codes are available for ArdiPi shields
-   - [Relay](https://github.com/sbcshop/ArdiFi_Software/blob/main/examples/relay_shield_demo.py) : code test switching of relays in sequence 
-   - [RFID](https://github.com/sbcshop/ArdiFi_Software/blob/main/examples/RFID_shield_demo.py) : code to test RFID module scan and switching of Relay
-   - [Display](https://github.com/sbcshop/ArdiFi_Software/blob/main/examples/display_shield_Demo.py) : testing of display and programmable buttons
-   - [UHF]() : testing onboard UHF module , buzzer and display unit of shield 
+   Also, sample codes are available for Ardi32 shields
+   - [Relay shield](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_relay_shield_interfacing) : code test switching of relays in sequence 
+   - [RFID shield]() : code to test RFID module scan and switching of Relay
+   - [Display shield]() : testing of display and programmable buttons
+   - [UHF shield]() : testing onboard UHF module , buzzer and display unit of shield 
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
    
