@@ -46,11 +46,13 @@ ArdiFi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 ### Interfacing Details
   | ESP32 | Hardware Pin | Function |
   |---|---|---|
-  | | SCLK | Clock pin of SPI interface for microSD card |
-  | | DIN  | MOSI (Master OUT Slave IN) data pin of SPI interface for microSD card|
-  | | DOUT | MISO (Master IN Slave OUT) data pin of SPI interface for microSD card|
-  | | CS   | Chip Select pin of SPI interface for microSD card|
-  | | Buzzer| Buzzer PWM pin connection|
+  | IO42 | SCLK | Clock pin of SPI interface for microSD card |
+  | IO2 | DIN  | MOSI (Master OUT Slave IN) data pin of SPI interface for microSD card|
+  | IO41 | DOUT | MISO (Master IN Slave OUT) data pin of SPI interface for microSD card|
+  | IO1 | CS   | Chip Select pin of SPI interface for microSD card|
+  | IO40 | Buzzer| Onboard Buzzer PWM pin connection|
+  | IO8 | LED | Onboard Led Positive Pin |
+  | IO0 | Button | Onboard Boot button |
 
 Note: When SD card not connected, then above related pins can be used for normal GPIO operations.
 
@@ -77,13 +79,10 @@ Note: When SD card not connected, then above related pins can be used for normal
      <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/library_files_path.png" />
      
 ### 3. Testing First Code
-   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/tree/main/examples) in github which you can download and try. 
+   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples) in github which you can download and try. 
    - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on Ardi32.
      <img src="https://github.com/sbcshop/ArdiFi_Software/blob/main/images/uploadCode.gif">
-   - If you plan to use display related code with any custom header files then follow below image steps to create header file inside main code, for demonstration we have shown how to use custom fonts. To make your task easy, we have added font header into code folder, so this step not need when you download complete github.
-     
-     <img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Capacitive_Software/blob/main/images/headerFile_add.gif">
-     
+    
    - Checkout other examples below and build your own custom program codes using those references.
      
 ### Example Codes
