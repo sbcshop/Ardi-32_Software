@@ -1,49 +1,85 @@
 # ArdiFi_Software
-<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ARDIPI_bannerRev.jpg?v=1688463003">
-Introducing ArdiPi the ultimate Arduino Uno alternative packed with powerful specs and exciting features in Arduino Uno form factor. You can enjoy a low-cost solution with access to the largest support communities for Raspberry Pi. 
-This github provides getting started guide and other working details for ArdiPi.
+<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ARDI32banner.jpg?v=1688463937">
+Ardi32 is the ultimate Arduino Uno alternative packed with powerful specs and exciting features in the Arduino Uno form factor. ArdiFi is powered by the latest ESP32-S3-WROOM-1 which. Built-in Wi-Fi and Bluetooth connectivity for ArdiFi boards make them ideal for IoT projects or projects requiring wireless communication. 
+This github provides getting started guide and other working details for ArdiFi.
 
-ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/ardi-relay-shield-for-arduino-uno?_pos=4&_sid=961a5887c&_ss=r), [RFID](https://shop.sb-components.co.uk/products/ardi-rfid-shield-for-arduino-uno?_pos=5&_sid=b4e4b2ef1&_ss=r), [Display](https://shop.sb-components.co.uk/products/ardi-display-shield-for-arduino-uno?_pos=5&_sid=961a5887c&_ss=r) and [UHF](https://shop.sb-components.co.uk/products/ardi-uhf-shield-for-arduino-uno?variant=40791294836819) which you can use to add more functionality into projects. 
+ArdiFi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/ardi-relay-shield-for-arduino-uno?_pos=4&_sid=961a5887c&_ss=r), [RFID](https://shop.sb-components.co.uk/products/ardi-rfid-shield-for-arduino-uno?_pos=5&_sid=b4e4b2ef1&_ss=r), [Display](https://shop.sb-components.co.uk/products/ardi-display-shield-for-arduino-uno?_pos=5&_sid=961a5887c&_ss=r) and [UHF](https://shop.sb-components.co.uk/products/ardi-uhf-shield-for-arduino-uno?variant=40791294836819) which you can use to add more functionality into projects. 
 
 ### Features:
-- Arduino UNO Form factor, so you can connect 3.3V compatible Arduino shields  
+- Powered by powerful ESP32-S3-WROOM-1 module with inbuild WiFi and BLE support.
+- Arduino UNO Form factor, so you can connect 3.3V compatible Arduino shields
 - SD card slot for storage and data transfer
-- Drag-and-drop programming using mass storage over USB
-- Multifunction GPIO breakout supporting general I/O, UART, I2C, SPI, ADC & PWM function.
-- Multi-tune Buzzer to add audio alert into project
-- SWD pins breakout for serial debugging 
-- Multi-platform support like Arduino IDE, MicroPython and CircuitPython.
-- Comes with HID support, so device can simulate a mouse or keyboard
+- The facility of Type C USB interface for programming and to power the board
+- Boot and Reset buttons are available to operate in various modes.
+- Multifunction GPIO breakout supporting general I/O, UART, I2C, SPI, ADC & PWM functions.
+- Multi-tune Buzzer to add audio alert into the project
+- Multi-platform support like Arduino IDE, Espressif IDF, and MicroPython/CircuitPython
+- Comes with HID support, so the device can simulate a mouse or keyboard
 
 ### Specifications:
-- Powered by RP2040 microcontroller which is dual-core Arm Cortex-M0+ processor, 2MB of onboard flash storage, 264kB of RAM
-- On-board single-band 2.4GHz wireless interfaces (802.11n) for WiFi and Bluetooth® 5 (LE)
-- WPA3 & Soft access point supporting up to four clients
-- Operating voltage of pins 3.3V and board supply 5V
-- 25 Multipurpose GPIOs breakout in Arduino style for easy peripheral interfacing
+- ESP32-S3 series of SoCs having Xtensa® dual-core 32-bit LX7 microprocessor
+- 4 GHz Wi-Fi (802.11 b/g/n) and Bluetooth® 5 (LE)
+- Flash up to 16 MB, PSRAM up to 8 MB
+- Board Supply 5V and GPIO pins operating voltage 3.3V
+- 22 Multipurpose GPIOs breakout in Arduino style for easy peripheral and shield interfacing
 - I2C, SPI, and UART communications protocol support
-- 2MB of onboard Flash memory
-- Cross platform development and multiple programming language support
+- Cross-platform development and multiple programming language support
 
 ## Getting Started with ArdiPi
 ### Hardware Overview
 #### Pinout
-<img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/ArdiPi_pinout.jpg">
+<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ardi32pinout.jpg?v=1688464181">
 
-- (1) Buzzer 
-- (2) RPi Pico W
+- (1) Buzzer
+- (2) Type C
 - (3) Reset Button
-- (4) & (8) Multipurpose GPIO breakout 
-- (5) Power LED
-- (6) SWD & GPIO breakout
-- (7) SD card slot
-- (9) & (10) Power Pins
+- (4) Native USB Interface breakout
+- (5) & (9) Multipurpose GPIO breakout
+- (6) ESP32-S3-WROOM-1 chip module
+- (7) Boot Button
+- (8) SD card slot
+- (10) & (11) Power Pins
 
 #### GPIO Pins Detail
 <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/ArdiPI_GPIO_PinDetail.jpg">
 
+### Interfacing Details
+  | ESP32 | Hardware Pin | Function |
+  |---|---|---|
+  | | SCLK | Clock pin of SPI interface for microSD card |
+  | | DIN  | MOSI (Master OUT Slave IN) data pin of SPI interface for microSD card|
+  | | DOUT | MISO (Master IN Slave OUT) data pin of SPI interface for microSD card|
+  | | CS   | Chip Select pin of SPI interface for microSD card|
+  | | Buzzer| Buzzer PWM pin connection|
 
+Note: When SD card not connected, then above related pins can be used for normal GPIO operations.
 
+### 1. Configure and Setup Development Environment
+   - Download Arduino IDE from [official site](https://www.arduino.cc/en/software) and install into your system. We have use Arduino IDE 1.8.19
+   - Once installation done will add ESP32 board support into IDE, for this first you need to add below link into preference:
+     ``` https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json ```
+     
+     Select File > Preference, and add link as show in below image,
+      <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/preference_board.gif" />
+      
+   - Now will install ESP32 based boards as shown in below image,
+
+     <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/install_ESP32boards.gif" />
+     
+   - Once done, keeping default settings select the ESP32 Dev Module with suitable com port (may be different in your case) as shown below, 
+
+     <img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/select_esp32_with_comport.gif">
+
+### 3. Testing First Code
+   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/tree/main/examples) in github which you can download and try. 
+   - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on ESP32 of Touchsy.
+     <img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/upload_process.gif">
+   - If you plan to use display related code with any custom header files then follow below image steps to create header file inside main code, for demonstration we have shown how to use custom fonts. To make your task easy, we have added font header into code folder, so this step not need when you download complete github.
+     
+     <img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Capacitive_Software/blob/main/images/headerFile_add.gif">
+     
+   - Checkout other examples below and build your own custom program codes using those references.
+     
 ### Example Codes
    Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/ArdiPi_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-ardipi), also add related lib files with default name.
    In [example](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ArdiPi like 
@@ -62,7 +98,6 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
   * [Schematic]()
   * [Hardware Files]()
   * [Step File]()
-
 
 
 ## Related Products
