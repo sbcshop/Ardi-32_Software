@@ -78,7 +78,7 @@ Note: When SD card not connected, then above related pins can be used for normal
      
 ### 3. Testing First Code
    - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/tree/main/examples) in github which you can download and try. 
-   - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on ESP32 of Touchsy.
+   - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on Ardi32.
      <img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/upload_process.gif">
    - If you plan to use display related code with any custom header files then follow below image steps to create header file inside main code, for demonstration we have shown how to use custom fonts. To make your task easy, we have added font header into code folder, so this step not need when you download complete github.
      
@@ -101,9 +101,9 @@ Note: When SD card not connected, then above related pins can be used for normal
    Using this sample code as a guide, you can modify, build, and share codes!!  
    
 ## Resources
-  * [Schematic]()
-  * [Hardware Files]()
-  * [Step File]()
+  * [Schematic](https://github.com/sbcshop/ArdiFi_Hardware/blob/main/Design%20Data/SCH%20%20Ardi-32.pdf)
+  * [Hardware Files](https://github.com/sbcshop/ArdiFi_Hardware)
+  * [Step File](https://github.com/sbcshop/ArdiFi_Hardware/blob/main/Mechanical%20Data/STEP%20Ardi-32.step)
   * [Getting Started with ESP32 in Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
   * [ESP32 S3 Hardware Reference](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/index.html)
   * [ESP32 S3 Datasheet](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Capacitive_Software/blob/main/documents/esp32-s3_datasheet_en.pdf)
