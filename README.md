@@ -83,10 +83,10 @@ Note: When SD card not connected, then above related pins can be used for normal
    - [SD card](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/sdcard_Demo) : code to test onboard micro SD card interfacing
    
    Also, sample codes are available for Ardi32 shields
-   - [Relay shield](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_relay_shield_interfacing) : code test switching of relays in sequence 
-   - [RFID shield](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_RFID_shield_interfacing) : code to test RFID module scan and switching of Relay
-   - [Display shield]() : testing of display and programmable buttons
-   - [UHF shield]() : testing onboard UHF module , buzzer and display unit of shield 
+   - [Ardi Relay shield](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_relay_shield_interfacing) : code test switching of relays in sequence 
+   - [Ardi RFID shield](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_RFID_shield_interfacing) : code to test RFID module scan and switching of Relay
+   - [Ardi Display shield]() : testing of display and programmable buttons
+   - [Ardi UHF shield]() : testing onboard UHF module , buzzer and display unit of shield 
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
    
