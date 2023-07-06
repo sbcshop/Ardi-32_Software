@@ -40,10 +40,7 @@ ArdiFi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 - (8) SD card slot
 - (10) & (11) Power Pins
 
-#### GPIO Pins Detail
-<img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/ArdiPI_GPIO_PinDetail.jpg">
-
-### Interfacing Details
+#### Interfacing Details
   | ESP32 | Hardware Pin | Function |
   |---|---|---|
   | IO42 | SCLK | Clock pin of SPI interface for microSD card |
