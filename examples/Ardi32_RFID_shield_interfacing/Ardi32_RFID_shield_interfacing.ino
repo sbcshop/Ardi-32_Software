@@ -6,10 +6,10 @@
 
 #define rfidSerial Serial2  // Serial for RFID interfacing with ESP32
 
-char input[12];    // variable to hold RFID card value     
+char input[12];    // variable to hold RFID card value,   
 int count = 0;        
-int buzzerPin = 42;  // Buzzer connected at Digital Pin 3 of Arduino Uno
-int relayPin = 1;   // Relay connected at Digital Pin 3 of Arduino Uno
+int buzzerPin = 42;  // Buzzer connected at IO42 pin of ESP32
+int relayPin = 1;   // Relay connected at IO1 pin of ESP32
 bool statusVal = 0;    // to check previous state
 
 
