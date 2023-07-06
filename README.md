@@ -1,9 +1,9 @@
 # ArdiFi_Software
 <img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ARDI32banner.jpg?v=1688463937">
-Ardi32 is the ultimate Arduino Uno alternative packed with powerful specs and exciting features in the Arduino Uno form factor. ArdiFi is powered by the latest ESP32-S3-WROOM-1 which. Built-in Wi-Fi and Bluetooth connectivity for ArdiFi boards make them ideal for IoT projects or projects requiring wireless communication. 
-This github provides getting started guide and other working details for ArdiFi.
+Ardi-32 is the ultimate Arduino Uno alternative packed with powerful specs and exciting features in the Arduino Uno form factor. Ardi-32 is powered by the latest ESP32-S3-WROOM-1 which. Built-in Wi-Fi and Bluetooth connectivity for Ardi-32 boards make them ideal for IoT projects or projects requiring wireless communication. 
+This github provides getting started guide and other working details for Ardi-32
 
-ArdiFi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/ardi-relay-shield-for-arduino-uno?_pos=4&_sid=961a5887c&_ss=r), [RFID](https://shop.sb-components.co.uk/products/ardi-rfid-shield-for-arduino-uno?_pos=5&_sid=b4e4b2ef1&_ss=r), [Display](https://shop.sb-components.co.uk/products/ardi-display-shield-for-arduino-uno?_pos=5&_sid=961a5887c&_ss=r) and [UHF](https://shop.sb-components.co.uk/products/ardi-uhf-shield-for-arduino-uno?variant=40791294836819) which you can use to add more functionality into projects. 
+Ardi-32 Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/ardi-relay-shield-for-arduino-uno?_pos=4&_sid=961a5887c&_ss=r), [RFID](https://shop.sb-components.co.uk/products/ardi-rfid-shield-for-arduino-uno?_pos=5&_sid=b4e4b2ef1&_ss=r), [Display](https://shop.sb-components.co.uk/products/ardi-display-shield-for-arduino-uno?_pos=5&_sid=961a5887c&_ss=r) and [UHF](https://shop.sb-components.co.uk/products/ardi-uhf-shield-for-arduino-uno?variant=40791294836819) which you can use to add more functionality into projects. 
 
 ### Features:
 - Powered by powerful ESP32-S3-WROOM-1 module with inbuild WiFi and BLE support.
@@ -25,7 +25,7 @@ ArdiFi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 - I2C, SPI, and UART communications protocol support
 - Cross-platform development and multiple programming language support
 
-## Getting Started with ArdiPi
+## Getting Started with Ardi-32
 ### Hardware Overview
 #### Pinout
 <img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ardi32pinout.jpg?v=1688464181">
@@ -71,7 +71,7 @@ Note: When SD card not connected, then above related pins can be used for normal
      
 ### 2. Testing First Code
    - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples) in github which you can download and try. 
-   - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on Ardi32.
+   - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on Ardi-32.
      <img src="https://github.com/sbcshop/ArdiFi_Software/blob/main/images/uploadCode.gif">
     
    - Checkout other examples below and build your own custom program codes using those references.
