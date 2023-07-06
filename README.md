@@ -72,13 +72,7 @@ Note: When SD card not connected, then above related pins can be used for normal
 
      <img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/select_esp32_with_comport.gif">
      
-### 2. Installing Libraries
-   - Download [library zip file](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Capacitive_Software/blob/main/libraries.zip) provided here in github.
-   - Extract and copy files inside Document > Arduino > Libraries folder. Make sure to restart Arduino IDE whenever you update or add any libraries.
-
-     <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/library_files_path.png" />
-     
-### 3. Testing First Code
+### 2. Testing First Code
    - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples) in github which you can download and try. 
    - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on Ardi32.
      <img src="https://github.com/sbcshop/ArdiFi_Software/blob/main/images/uploadCode.gif">
@@ -86,8 +80,8 @@ Note: When SD card not connected, then above related pins can be used for normal
    - Checkout other examples below and build your own custom program codes using those references.
      
 ### Example Codes
-   Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/ArdiPi_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-ardipi), also add related lib files with default name.
-   In [example](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ArdiPi like 
+   
+   In [example](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples) folder you will find demo examples to try out on ArdiFi
    - [Buzzer](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/buzzerDemo) : code to test onboard Buzze
    - [SD card](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/sdcard_Demo) : code to test onboard micro SD card interfacing
    
