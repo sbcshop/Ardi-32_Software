@@ -16,7 +16,6 @@ bool statusVal = 0;    // to check previous state
 void setup()
 {
   Serial.begin(115200);   // START SERIAL AT BAUD RATE OF 9600 BITS/SEC
-  //rfidSerial.begin(9600);  
   rfidSerial.begin(9600, SERIAL_8N1, 18, 17); 
   pinMode(buzzerPin, OUTPUT); // set Buzzer pin as OUTPUT
   pinMode(relayPin, OUTPUT);  // set Relay pin as OUTPUT
