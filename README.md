@@ -75,6 +75,12 @@ Note: When SD card not connected, then above related pins can be used for normal
      <img src="https://github.com/sbcshop/ArdiFi_Software/blob/main/images/uploadCode.gif">
     
    - Checkout other examples below and build your own custom program codes using those references.
+
+### 3. Installing Libraries
+   - Download [library zip file](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Capacitive_Software/blob/main/libraries.zip) provided here in github.
+   - Extract and copy files inside Document > Arduino > Libraries folder. Make sure to restart Arduino IDE whenever you update or add any libraries.
+
+     <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/library_files_path.png" />
      
 ### Example Codes
    
@@ -85,7 +91,7 @@ Note: When SD card not connected, then above related pins can be used for normal
    Also, sample codes are available for Ardi32 shields
    - [Ardi Relay shield](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_relay_shield_interfacing) : code test switching of relays in sequence 
    - [Ardi RFID shield](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_RFID_shield_interfacing) : code to test RFID module scan and switching of Relay
-   - [Ardi Display shield]() : testing of display and programmable buttons
+   - [Ardi Display shield]() : testing of display and programmable buttons, for this example to try you need to install [libraries](https://github.com/sbcshop/Ardi-32_Software/blob/main/libraries.zip) provided in github. [Step 3]() shows how to install libraries.
    - [Ardi UHF shield]() : testing onboard UHF module , buzzer and display unit of shield 
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
