@@ -1,4 +1,4 @@
-# ArdiFi_Software
+# Ardi-32_Software
 <img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ARDI32banner.jpg?v=1688463937">
 Ardi-32 is the ultimate Arduino Uno alternative packed with powerful specs and exciting features in the Arduino Uno form factor. Ardi-32 is powered by the latest ESP32-S3-WROOM-1 which. Built-in Wi-Fi and Bluetooth connectivity for Ardi-32 boards make them ideal for IoT projects or projects requiring wireless communication. 
 This github provides getting started guide and other working details for Ardi-32
