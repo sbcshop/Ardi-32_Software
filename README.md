@@ -89,10 +89,10 @@ Note: When SD card not connected, then above related pins can be used for normal
    - [SD card](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/sdcard_Demo) : code to test onboard micro SD card interfacing
    
    Also, sample codes are available for Ardi32 shields
-   - [Ardi Relay shield](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_relay_shield_interfacing) : code test switching of relays in sequence 
-   - [Ardi RFID shield](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_RFID_shield_interfacing) : code to test RFID module scan and switching of Relay
-   - [Ardi Display shield](https://github.com/sbcshop/Ardi-32_Software/tree/main/examples/Ardi32_Display_shield_interfacing) : testing of display and programmable buttons, for this example to try you need to install [libraries](https://github.com/sbcshop/Ardi-32_Software/blob/main/libraries.zip) provided in github. [Step 3](https://github.com/sbcshop/Ardi-32_Software/blob/main/README.md#3-installing-libraries) shows how to install libraries.
-   - [Ardi UHF shield](https://github.com/sbcshop/Ardi-32_Software/tree/main/examples/Ardi32_UHF_shield_interfacing) : testing onboard UHF module , buzzer and display unit of shield 
+   - [Ardi Relay shield Code](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_relay_shield_interfacing) : code test switching of relays in sequence, for more details refer [Ardi-Relay Shield](https://github.com/sbcshop/Ardi_RFID_Shield_Software) 
+   - [Ardi RFID shield Code](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/Ardi32_RFID_shield_interfacing) : code to test RFID module scan and switching of Relay, for more details refer [Ardi-RFID Shield](https://github.com/sbcshop/Ardi_RFID_Shield_Software) 
+   - [Ardi Display shield Code](https://github.com/sbcshop/Ardi-32_Software/tree/main/examples/Ardi32_Display_shield_interfacing) : testing of display and programmable buttons, for this example to try you need to install [libraries](https://github.com/sbcshop/Ardi-32_Software/blob/main/libraries.zip) provided in github. [Step 3](https://github.com/sbcshop/Ardi-32_Software/blob/main/README.md#3-installing-libraries) shows how to install libraries. For more details refer [Ardi-Display Shield](https://github.com/sbcshop/Ardi_Display_Shield_Software) 
+   - [Ardi UHF shield Code](https://github.com/sbcshop/Ardi-32_Software/tree/main/examples/Ardi32_UHF_shield_interfacing) : testing onboard UHF module, for more details refer [Ardi-UHF Shield](https://github.com/sbcshop/Ardi_UHF_Shield_Software) 
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
    
