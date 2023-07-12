@@ -1,6 +1,6 @@
 # Ardi-32_Software
 <img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ARDI32banner.jpg?v=1688463937">
-Ardi-32 is the ultimate Arduino Uno alternative packed with powerful specs and exciting features in the Arduino Uno form factor. Ardi-32 is powered by the latest ESP32-S3-WROOM-1 which. Built-in Wi-Fi and Bluetooth connectivity for Ardi-32 boards make them ideal for IoT projects or projects requiring wireless communication. 
+Ardi-32 is the ultimate Arduino Uno alternative packed with powerful specs and exciting features in the Arduino Uno form factor. Ardi-32 is powered by the latest ESP32-S3-WROOM-1. Built-in Wi-Fi and Bluetooth connectivity for Ardi-32 boards make them ideal for IoT projects or projects requiring wireless communication. 
 This github provides getting started guide and other working details for Ardi-32
 
 Ardi-32 Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/ardi-relay-shield-for-arduino-uno?_pos=4&_sid=961a5887c&_ss=r), [RFID](https://shop.sb-components.co.uk/products/ardi-rfid-shield-for-arduino-uno?_pos=5&_sid=b4e4b2ef1&_ss=r), [Display](https://shop.sb-components.co.uk/products/ardi-display-shield-for-arduino-uno?_pos=5&_sid=961a5887c&_ss=r) and [UHF](https://shop.sb-components.co.uk/products/ardi-uhf-shield-for-arduino-uno?variant=40791294836819) which you can use to add more functionality into projects. 
