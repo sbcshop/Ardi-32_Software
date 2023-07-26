@@ -85,7 +85,7 @@ Note: When SD card not connected, then above related pins can be used for normal
 ### Example Codes
    
    In [example](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples) folder you will find demo examples to try out on ArdiFi
-   - [Buzzer](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/buzzerDemo) : code to test onboard Buzze
+   - [Buzzer](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/buzzerDemo) : code to test onboard Buzzer
    - [SD card](https://github.com/sbcshop/ArdiFi_Software/tree/main/examples/sdcard_Demo) : code to test onboard micro SD card interfacing
    
    Also, sample codes are available for Ardi32 shields
