@@ -70,7 +70,7 @@ Note: When SD card not connected, then above related pins can be used for normal
      <img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/select_esp32_with_comport.gif">
      
    - In case you don't see com port then you will have to install CP2102 driver from [Link](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads). Download and install as per your operating system.
-     * check below one recommmend for windows user
+     * check below one recommended for windows user
        
        <img src="https://github.com/sbcshop/Ardi-32_Software/blob/main/images/cp2102_driver_link.png" width="626" height="377">
        
